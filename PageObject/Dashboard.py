@@ -1,2 +1,7 @@
 elm_headeravatar = "//div[header-avatar]"
 elm_xemtrangcanhan = "//a[text() = ' Xem trang cá nhân ']"
+elm_buttonmegamenu = "//i[contains(@class , 'icon-dots-grid text-responsive-header')]"
+elm_buttonLanguage = "//div[div[span[text() = 'Language']]]"
+elm_dropdownLanguage = "//div[div[text() = ' Language ']]/p-dropdown"
+elm_tiengViet       = "//p-dropdownitem[*//div[text() = 'Tiếng Việt']]"
+btn_apply           =   "//button[text() = ' Apply']"

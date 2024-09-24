@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ec249fe-eccf-4ee8-ad73-2fc76c8b5a23" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Keywork/Login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Keywork/Login.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/Dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/Dashboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/TC1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC1.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +56,7 @@
   "keyToString": {
     "Robot.CreatePost.executor": "Run",
     "Robot.LoginTest.executor": "Run",
+    "Robot.TC1.robot.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "minhtu123",
     "last_opened_file_path": "D:/RobotFramework/SocTripAutomation/SocTrip",
@@ -116,9 +116,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TC1.robot" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="SocTrip" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/Scripts/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--suite &quot;SocTrip.TestCases.TC1&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Robot.CreatePost" />
+        <item itemvalue="Robot.TC1.robot" />
         <item itemvalue="Robot.LoginTest" />
       </list>
     </recent_temporary>
@@ -143,7 +167,9 @@
       <workItem from="1726299672177" duration="1216000" />
       <workItem from="1726301465290" duration="808000" />
       <workItem from="1726302292313" duration="769000" />
-      <workItem from="1726303077805" duration="2529000" />
+      <workItem from="1726303077805" duration="2840000" />
+      <workItem from="1726490813416" duration="11000" />
+      <workItem from="1727184862390" duration="4349000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -193,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726302790951</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <option name="closed" value="true" />
+      <created>1726305670201</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726305670201</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +261,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SocTrip$TC1_robot.coverage" NAME="TC1.robot Coverage Results" MODIFIED="1727189033206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SocTrip$LoginTest.coverage" NAME="LoginTest Coverage Results" MODIFIED="1726304660894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SocTrip$CreatePost.coverage" NAME="CreatePost Coverage Results" MODIFIED="1726305609183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SocTrip$CreatePost.coverage" NAME="CreatePost Coverage Results" MODIFIED="1727189142018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
